@@ -12,7 +12,6 @@
         </ul>
         <div class="ind-header__block-arrow"><a href="#arrow">@@include('iconsprite/index/arrow-down.svg')</a></div>
         <div class="ind-header__block-instagram"><a href="#">@@include('iconsprite/index/instagram.svg')</a></div>
-        <div class="ind-header__block-line"></div>
         <div class="ind-header__block-test"><a href="#">пройти тест</a></div>
     </div>
 </header>
@@ -30,59 +29,166 @@
             но боитесь обмана ?
         </div>
         <div class="ind-headers__block-quiz">
-            <div class="ind-headers__block-quiz-car">
-                <div id="indexHeaderQuizTitle_1" class="ind-headers__block-quiz-car-title">Какие машины вас интересуют ?</div>
-                <div id="indexHeaderQuizTitle_2" class="ind-headers__block-quiz-car-title display-n">Какой цвет машины вы предпочитаете ? </div>
-                <div id="indexHeaderQuizTitle_3" class="ind-headers__block-quiz-car-title display-n">Механическая или автоматическая коробка передач ?</div>
-                <ul class="ind-headers__block-quiz-car-list" id="indexHeaderQuizBlock_1">
-                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_1_1">
-                        <div class="ind-headers__block-quiz-car-item-img">
-                            <img src="./img/index/car-1.png" alt="img">
-                        </div>
-                        <div class="ind-headers__block-quiz-car-item-line"></div>
-                        <div class="ind-headers__block-quiz-car-item-title">Kia sportage</div>
-                    </li>
-                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_1_2">
-                        <div class="ind-headers__block-quiz-car-item-img">
-                            <img src="./img/index/car-2.png" alt="img">
-                        </div>
-                        <div class="ind-headers__block-quiz-car-item-line"></div>
-                        <div class="ind-headers__block-quiz-car-item-title">Volkswagen</div>
-                    </li>
-                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_1_3">
-                        <div class="ind-headers__block-quiz-car-item-img">
-                            <img src="./img/index/car-3.png" alt="img">
-                        </div>
-                        <div class="ind-headers__block-quiz-car-item-line"></div>
-                        <div class="ind-headers__block-quiz-car-item-title">Toyota</div>
-                    </li>
-                </ul>
-                <ul class="ind-headers__block-quiz-car-list display-n" id="indexHeaderQuizBlock_2">
-                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_2_1">
-                        <div class="ind-headers__block-quiz-car-item-img">
-                            <img src="./img/index/car-1.png" alt="img">
-                        </div>
-                        <div class="ind-headers__block-quiz-car-item-line"></div>
-                        <div class="ind-headers__block-quiz-car-item-title">Kia sportage</div>
-                    </li>
-                </ul>
-                <ul class="ind-headers__block-quiz-car-list display-n" id="indexHeaderQuizBlock_3">
-                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_3_1">
-                        <div class="ind-headers__block-quiz-car-item-img">
-                            <img src="./img/index/car-1.png" alt="img">
-                        </div>
-                        <div class="ind-headers__block-quiz-car-item-line"></div>
-                        <div class="ind-headers__block-quiz-car-item-title">Kia sportage</div>
-                    </li>
-                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_3_2">
-                        <div class="ind-headers__block-quiz-car-item-img">
-                            <img src="./img/index/car-2.png" alt="img">
-                        </div>
-                        <div class="ind-headers__block-quiz-car-item-line"></div>
-                        <div class="ind-headers__block-quiz-car-item-title">Volkswagen</div>
-                    </li>
-                </ul>
-            </div>
+            <form class="ind-headers__block-quiz-form">
+                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_1">
+                    <div class="ind-headers__block-quiz-list-text">Ответьте на 5 вопросов и получите чек лист “Как не дать обмануть себя при покупке авто” </div>
+                    <div class="ind-headers__block-quiz-list-add">Вопрос 1 из 5</div>
+                    <div class="ind-headers__block-quiz-list-title">В каком ценовом сегменте ищете авто?</div>
+                    <div class="ind-headers__block-quiz-list-wrapper">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_1" for="indexHeaderQuizItemInput_1_1">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>До 500.000 руб</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_1" name="indexHeaderQuizBlock_1">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_2" for="indexHeaderQuizItemInput_1_2">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>500-700.000 руб</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_2" name="indexHeaderQuizBlock_1">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_3" for="indexHeaderQuizItemInput_1_3">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>700 - 1 млн руб</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_3" name="indexHeaderQuizBlock_1">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_4" for="indexHeaderQuizItemInput_1_4">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>1 млн - 2 млн руб</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_4" name="indexHeaderQuizBlock_1">
+                        </label>
+                    </div>
+                </div>
+                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_2">
+                    <div class="ind-headers__block-quiz-list-text">Ответьте на 5 вопросов и получите чек лист “Как не дать обмануть себя при покупке авто” </div>
+                    <div class="ind-headers__block-quiz-list-add">Вопрос 2 из 5</div>
+                    <div class="ind-headers__block-quiz-list-title">Рассматриваете новый авто или с пробегом?</div>
+                    <div class="ind-headers__block-quiz-list-wrapper">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_2_1" for="indexHeaderQuizItemInput_2_1">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Новый</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_2_1" name="indexHeaderQuizBlock_2">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_2_2" for="indexHeaderQuizItemInput_2_2">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>С пробегом</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_2_2" name="indexHeaderQuizBlock_2">
+                        </label>
+                    </div>
+                </div>
+                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_3">
+                    <div class="ind-headers__block-quiz-list-text">Ответьте на 5 вопросов и получите чек лист “Как не дать обмануть себя при покупке авто” </div>
+                    <div class="ind-headers__block-quiz-list-add">Вопрос 3 из 5</div>
+                    <div class="ind-headers__block-quiz-list-title">Определились с маркой автомобиля?</div>
+                    <div class="ind-headers__block-quiz-list-wrapper">
+                        <label class="ind-headers__block-quiz-input" id="indexHeaderQuizItem_3_1" for="indexHeaderQuizItemInput_3_1">
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="text" id="indexHeaderQuizItemInput_3_1" name="indexHeaderQuizBlock_1" placeholder="Введите марку">
+                        </label>
+                        <label class="ind-headers__block-quiz-inputs" id="indexHeaderQuizItem_3_2" for="indexHeaderQuizItemInput_3_2">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Нет, нужна консультация</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_3_2" name="indexHeaderQuizBlock_3">
+                        </label>
+                    </div>
+                </div>
+                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_4">
+                    <div class="ind-headers__block-quiz-list-text">Ответьте на 5 вопросов и получите чек лист “Как не дать обмануть себя при покупке авто” </div>
+                    <div class="ind-headers__block-quiz-list-add">Вопрос 4 из 5</div>
+                    <div class="ind-headers__block-quiz-list-title">В каком типе кузова рассматриваете авто?</div>
+                    <div class="ind-headers__block-quiz-list-wrapper">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_4_1" for="indexHeaderQuizItemInput_4_1">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Седан</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_4_1" name="indexHeaderQuizBlock_4">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_4_2" for="indexHeaderQuizItemInput_4_2">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Хетчбэк</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_4_2" name="indexHeaderQuizBlock_4">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_4_3" for="indexHeaderQuizItemInput_4_3">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Универсал</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_4_3" name="indexHeaderQuizBlock_4">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_4_4" for="indexHeaderQuizItemInput_4_4">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Кроссовер</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_4_4" name="indexHeaderQuizBlock_4">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_4_5" for="indexHeaderQuizItemInput_4_5">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Грузовой</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_4_5" name="indexHeaderQuizBlock_4">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_4_6" for="indexHeaderQuizItemInput_4_6">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Другой</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_4_6" name="indexHeaderQuizBlock_4">
+                        </label>
+                    </div>
+                </div>
+                <div class="ind-headers__block-quiz-list" id="indexHeaderQuizBlock_1">
+                    <div class="ind-headers__block-quiz-list-text">Ответьте на 5 вопросов и получите чек лист “Как не дать обмануть себя при покупке авто” </div>
+                    <div class="ind-headers__block-quiz-list-add">Вопрос 5 из 5</div>
+                    <div class="ind-headers__block-quiz-list-title">Как срочно планируете покупку авто?</div>
+                    <div class="ind-headers__block-quiz-list-wrapper">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_1" for="indexHeaderQuizItemInput_1_1">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>В ближайшую неделю</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_1" name="indexHeaderQuizBlock_1">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_2" for="indexHeaderQuizItemInput_1_2">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>В ближайший месяц</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_2" name="indexHeaderQuizBlock_1">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_3" for="indexHeaderQuizItemInput_1_3">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>В ближайшие 3 месяца</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_3" name="indexHeaderQuizBlock_1">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_4" for="indexHeaderQuizItemInput_1_4">
+                            <div class="ind-headers__block-quiz-item-block">
+                                <p>Еще не определился</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_1_4" name="indexHeaderQuizBlock_1">
+                        </label>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </section>
