@@ -18,6 +18,7 @@
         <div class="ind-header__block-test"><a href="#">пройти тест</a></div>
     </div>
 </header>
+
 <section class="ind-headers">
     <div class="ind-headers__bg"></div>
     <div class="ind-headers__block">
@@ -28,28 +29,55 @@
         </div>
         <div class="ind-headers__block-quiz">
             <div class="ind-headers__block-quiz-car">
-                <div class="ind-headers__block-quiz-car-title">Какие машины вас иинтересуют ?</div>
-                <ul class="ind-headers__block-quiz-car-list">
-                    <li class="ind-headers__block-quiz-car-item">
+                <div id="indexHeaderQuizTitle_1" class="ind-headers__block-quiz-car-title">Какие машины вас интересуют ?</div>
+                <div id="indexHeaderQuizTitle_2" class="ind-headers__block-quiz-car-title display-n">Какой цвет машины вы предпочитаете ? </div>
+                <div id="indexHeaderQuizTitle_3" class="ind-headers__block-quiz-car-title display-n">Механическая или автоматическая коробка передач ?</div>
+                <ul class="ind-headers__block-quiz-car-list" id="indexHeaderQuizBlock_1">
+                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_1_1">
                         <div class="ind-headers__block-quiz-car-item-img">
                             <img src="./img/index/car-1.png" alt="img">
                         </div>
                         <div class="ind-headers__block-quiz-car-item-line"></div>
                         <div class="ind-headers__block-quiz-car-item-title">Kia sportage</div>
                     </li>
-                    <li class="ind-headers__block-quiz-car-item">
+                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_1_2">
                         <div class="ind-headers__block-quiz-car-item-img">
                             <img src="./img/index/car-2.png" alt="img">
                         </div>
                         <div class="ind-headers__block-quiz-car-item-line"></div>
                         <div class="ind-headers__block-quiz-car-item-title">Volkswagen</div>
                     </li>
-                    <li class="ind-headers__block-quiz-car-item">
+                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_1_3">
                         <div class="ind-headers__block-quiz-car-item-img">
                             <img src="./img/index/car-3.png" alt="img">
                         </div>
                         <div class="ind-headers__block-quiz-car-item-line"></div>
                         <div class="ind-headers__block-quiz-car-item-title">Toyota</div>
+                    </li>
+                </ul>
+                <ul class="ind-headers__block-quiz-car-list display-n" id="indexHeaderQuizBlock_2">
+                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_2_1">
+                        <div class="ind-headers__block-quiz-car-item-img">
+                            <img src="./img/index/car-1.png" alt="img">
+                        </div>
+                        <div class="ind-headers__block-quiz-car-item-line"></div>
+                        <div class="ind-headers__block-quiz-car-item-title">Kia sportage</div>
+                    </li>
+                </ul>
+                <ul class="ind-headers__block-quiz-car-list display-n" id="indexHeaderQuizBlock_3">
+                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_3_1">
+                        <div class="ind-headers__block-quiz-car-item-img">
+                            <img src="./img/index/car-1.png" alt="img">
+                        </div>
+                        <div class="ind-headers__block-quiz-car-item-line"></div>
+                        <div class="ind-headers__block-quiz-car-item-title">Kia sportage</div>
+                    </li>
+                    <li class="ind-headers__block-quiz-car-item" id="indexHeaderQuizItem_3_2">
+                        <div class="ind-headers__block-quiz-car-item-img">
+                            <img src="./img/index/car-2.png" alt="img">
+                        </div>
+                        <div class="ind-headers__block-quiz-car-item-line"></div>
+                        <div class="ind-headers__block-quiz-car-item-title">Volkswagen</div>
                     </li>
                 </ul>
             </div>
@@ -386,6 +414,277 @@
     </div>
 </section>
 
+<section class="ind-slider">
+    <div class="ind-slider__bg"></div>
+    <div class="ind-slider__wrapper containers">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="ind-slider__wrapper-text">
+                        <div class="ind-slider__wrapper-text-title">
+                            Наши счастливые <br>
+                            клиенты
+                        </div>
+                        <div class="ind-slider__wrapper-text-item">
+                            Мы осуществим подбор авто по  вашим параметрам <br>
+                            и вашему бюджету в Москве и Московской области <br>
+                            <br>
+                            Готовы восполнить нестандартные и сложные варианты <br>
+                            подбора и поиска автомобиля, сможем найти и подобрать <br>
+                            для вас в кратчайшие сроки автомобиль
+                        </div>
+                    </div>
+                    <div class="ind-slider__wrapper-block">
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-1.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-2.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-info">
+                            <img src="./img/index/slider-3.png" alt="">
+                            <div class="ind-slider__wrapper-block-info-title">Диагностика</div>
+                            <ul class="ind-slider__wrapper-block-info-text">
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Авто <span> - Audi A6</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Год <span> - 2013</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ДВС <span> - бензин 2.8/КПП автомат</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ПТС <span> - оригинал/2 владельца</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Пробег <span> - 138.000 км</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Цена <span> - 1.030.000 руб</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="ind-slider__wrapper-text">
+                        <div class="ind-slider__wrapper-text-title">
+                            Наши счастливые <br>
+                            клиенты
+                        </div>
+                        <div class="ind-slider__wrapper-text-item">
+                            Мы осуществим подбор авто по  вашим параметрам <br>
+                            и вашему бюджету в Москве и Московской области <br>
+                            <br>
+                            Готовы восполнить нестандартные и сложные варианты <br>
+                            подбора и поиска автомобиля, сможем найти и подобрать <br>
+                            для вас в кратчайшие сроки автомобиль
+                        </div>
+                    </div>
+                    <div class="ind-slider__wrapper-block">
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-1.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-3.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-info">
+                            <img src="./img/index/slider-2.png" alt="">
+                            <div class="ind-slider__wrapper-block-info-title">Диагностика</div>
+                            <ul class="ind-slider__wrapper-block-info-text">
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Авто <span> - Audi A6</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Год <span> - 2013</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ДВС <span> - бензин 2.8/КПП автомат</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ПТС <span> - оригинал/2 владельца</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Пробег <span> - 138.000 км</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Цена <span> - 1.030.000 руб</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="ind-slider__wrapper-text">
+                        <div class="ind-slider__wrapper-text-title">
+                            Наши счастливые <br>
+                            клиенты
+                        </div>
+                        <div class="ind-slider__wrapper-text-item">
+                            Мы осуществим подбор авто по  вашим параметрам <br>
+                            и вашему бюджету в Москве и Московской области <br>
+                            <br>
+                            Готовы восполнить нестандартные и сложные варианты <br>
+                            подбора и поиска автомобиля, сможем найти и подобрать <br>
+                            для вас в кратчайшие сроки автомобиль
+                        </div>
+                    </div>
+                    <div class="ind-slider__wrapper-block">
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-2.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-3.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-info">
+                            <img src="./img/index/slider-1.png" alt="">
+                            <div class="ind-slider__wrapper-block-info-title">Диагностика</div>
+                            <ul class="ind-slider__wrapper-block-info-text">
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Авто <span> - Audi A6</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Год <span> - 2013</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ДВС <span> - бензин 2.8/КПП автомат</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ПТС <span> - оригинал/2 владельца</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Пробег <span> - 138.000 км</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Цена <span> - 1.030.000 руб</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="ind-slider__wrapper-text">
+                        <div class="ind-slider__wrapper-text-title">
+                            Наши счастливые <br>
+                            клиенты
+                        </div>
+                        <div class="ind-slider__wrapper-text-item">
+                            Мы осуществим подбор авто по  вашим параметрам <br>
+                            и вашему бюджету в Москве и Московской области <br>
+                            <br>
+                            Готовы восполнить нестандартные и сложные варианты <br>
+                            подбора и поиска автомобиля, сможем найти и подобрать <br>
+                            для вас в кратчайшие сроки автомобиль
+                        </div>
+                    </div>
+                    <div class="ind-slider__wrapper-block">
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-1.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-img">
+                            <img src="./img/index/slider-2.png" alt="">
+                        </div>
+                        <div class="ind-slider__wrapper-block-info">
+                            <img src="./img/index/slider-3.png" alt="">
+                            <div class="ind-slider__wrapper-block-info-title">Диагностика</div>
+                            <ul class="ind-slider__wrapper-block-info-text">
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Авто <span> - Audi A6</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Год <span> - 2013</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ДВС <span> - бензин 2.8/КПП автомат</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    ПТС <span> - оригинал/2 владельца</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Пробег <span> - 138.000 км</span>
+                                </li>
+                                <li class="ind-slider__wrapper-block-info-item">
+                                    Цена <span> - 1.030.000 руб</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-controls">
+            <div class="swiper-button-next">
+                <div class="swiper-button-next-arrow"></div>
+            </div>
+            <div class="swiper-button-prev">
+                <div class="swiper-button-prev-arrow"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<section class="ind-form">
+    <div class="containers">
+        <div class="ind-form__block">
+            <div class="ind-form__block-text">
+                <div class="ind-form__block-text-add">автоподбор</div>
+                <div class="ind-form__block-text-title">Остались вопросы ?</div>
+                <div class="ind-form__block-text-item">
+                    Задайте их нам заполнив форму или позвоните <br>
+                    по телефону <span>+7 (495) 790-90-71</span> <br>
+                    <br>
+                    Наши специалисты с радостью ответят <br>
+                    на интересующие вас вопросы
+                </div>
+                <div class="ind-form__block-text-photo">
+                    <img src="./img/index/form-photo.png" alt="photo">
+                    <div class="ind-form__block-text-photo-add">
+                        <img src="./img/index/form-detail.png" alt="img">
+                    </div>
+                </div>
+            </div>
+            <form class="ind-form__block-input">
+                <div class="ind-form__block-input-wrapper">
+                    <input class="" type="text" name="user_email" required="required">
+                    <span class="ind-form__block-input-text">Марка</span>
+                    <span class="ind-form__block-input-line"></span>
+                </div>
+                <div class="ind-form__block-input-wrapper">
+                    <input class="" type="text" name="user_email" required="required">
+                    <span class="ind-form__block-input-text">Модель</span>
+                    <span class="ind-form__block-input-line"></span>
+                </div>
+                <div class="ind-form__block-input-wrapper">
+                    <input class="" type="text" name="user_email" required="required">
+                    <span class="ind-form__block-input-text">Год</span>
+                    <span class="ind-form__block-input-line"></span>
+                </div>
+                <div class="ind-form__block-input-wrapper">
+                    <input class="" type="text" name="user_email" required="required">
+                    <span class="ind-form__block-input-text">Ссылка на объявление авито</span>
+                    <span class="ind-form__block-input-line"></span>
+                </div>
+                <div class="ind-form__block-input-wrapper">
+                    <input class="" type="text" name="user_email" required="required">
+                    <span class="ind-form__block-input-text">Ваше имя</span>
+                    <span class="ind-form__block-input-line"></span>
+                </div>
+                <div class="ind-form__block-input-wrapper">
+                    <input class="" type="text" name="user_email" required="required">
+                    <span class="ind-form__block-input-text">Номер телефона</span>
+                    <span class="ind-form__block-input-line"></span>
+                </div>
+                <button class="ind-form__block-input-btn"><a href="#">Подобрать авто</a></button>
+                <div class="ind-form__block-input-text">
+                    Нажимая на кнопку подобрать авто вы даете согласие на обработку ваших <br>
+                    персональных данных и соглашаетесь с <span>политикой конфиденциальности</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
 
 <footer class="ind-footer">
     <div class="ind-footer__block">
@@ -407,17 +706,19 @@
                     <div class="ind-footer__block-info-address-item">Москва, м. Савёловская, Сущёвский Вал 56с5</div>
                 </li>
             </ul>
-            <div class="ind-footer__block-map"></div>
+            <div class="ind-footer__block-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2243.1390710418245!2d37.619474178570265!3d55.790823002438174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a0819993661%3A0x6ecd406f5878576!2z0YPQuy4g0KHRg9GJ0ZHQstGB0LrQuNC5INCS0LDQuywgNTYsINCc0L7RgdC60LLQsCwgMTI5Mjcy!5e0!3m2!1sru!2sru!4v1634536440147!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
         </div>
     </div>
     <div class="ind-footer__add">
         <div class="containers">
             <div class="ind-footer__add-rights">Copyright © 2021. Автоподбор. Все права защищены</div>
             <div class="ind-footer__add-instagram">
-                @@include('iconsprite/index/instagram.svg')
-                <p>Наш instagram</p>
+                <a href="#">
+                    @@include('iconsprite/index/instagram.svg')
+                    <p>Наш instagram</p>
+                </a>
             </div>
-            <div class="ind-footer__add-create">Сделано в BUSINESS PUMP</div>
+            <div class="ind-footer__add-create"><a href="https://bpump.ru">Сделано в BUSINESS PUMP</a></div>
         </div>
     </div>
 </footer>

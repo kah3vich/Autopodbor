@@ -222,3 +222,60 @@ $('.ind-constructor__content-block-item:nth-child(13)').on('click', function() {
     $('.ind-constructor__content-block-item:nth-child(12)').removeClass('ind-constructor__content-block-item-active')
     $('.ind-constructor__content-block-item:nth-child(1)').removeClass('ind-constructor__content-block-item-active')
 });
+
+
+
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".ind-slider__wrapper .swiper-controls .swiper-button-next",
+        prevEl: ".ind-slider__wrapper .swiper-controls .swiper-button-prev",
+    },
+    pagination: {
+        el: ".ind-slider__wrapper .swiper-controls .swiper-pagination",
+    },
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
+    keyboard: true,
+});
+
+
+$('#indexHeaderQuizItem_1_1').on('click', function() {
+    $('#indexHeaderQuizBlock_1').addClass('display-n')
+    $('#indexHeaderQuizBlock_2').removeClass('display-n')
+    $('#indexHeaderQuizTitle_1').addClass('display-n')
+    $('#indexHeaderQuizTitle_2').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_1_2').on('click', function() {
+    $('#indexHeaderQuizBlock_1').addClass('display-n')
+    $('#indexHeaderQuizBlock_2').removeClass('display-n')
+    $('#indexHeaderQuizTitle_1').addClass('display-n')
+    $('#indexHeaderQuizTitle_2').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_1_3').on('click', function() {
+    $('#indexHeaderQuizBlock_1').addClass('display-n')
+    $('#indexHeaderQuizBlock_2').removeClass('display-n')
+    $('#indexHeaderQuizTitle_1').addClass('display-n')
+    $('#indexHeaderQuizTitle_2').removeClass('display-n')
+});
+
+
+$('#indexHeaderQuizItem_2_1').on('click', function() {
+    $('#indexHeaderQuizBlock_2').addClass('display-n')
+    $('#indexHeaderQuizBlock_3').removeClass('display-n')
+    $('#indexHeaderQuizTitle_2').addClass('display-n')
+    $('#indexHeaderQuizTitle_3').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_2_2').on('click', function() {
+    $('#indexHeaderQuizBlock_2').addClass('display-n')
+    $('#indexHeaderQuizBlock_3').removeClass('display-n')
+    $('#indexHeaderQuizTitle_2').addClass('display-n')
+    $('#indexHeaderQuizTitle_3').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_2_3').on('click', function() {
+    $('#indexHeaderQuizBlock_2').addClass('display-n')
+    $('#indexHeaderQuizBlock_3').removeClass('display-n')
+    $('#indexHeaderQuizTitle_2').addClass('display-n')
+    $('#indexHeaderQuizTitle_3').removeClass('display-n')
+});
