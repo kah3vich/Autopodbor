@@ -785,8 +785,6 @@ $('#indexHeaderQuizItem_7_2').on('click', function() {
 
 $(function() {  
     $("body").niceScroll({ 
-        scrollspeed: 10,
-        mousescrollstep: 10, 
         cursorcolor: "#fde3a7",
         cursorborder: ".5px solid box-shadow: 2px 4px 13px 2px rgba(34, 60, 80, 0.2);", 
         zindex: 100000,
