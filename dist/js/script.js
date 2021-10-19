@@ -603,7 +603,7 @@ var indSliderBlock = new Swiper(".indSliderBlock", {
 });
 
 
-var swiper = new Swiper(".mySwiper", {
+var mediaCatalogSlider = new Swiper(".mediaCatalogSlider", {
     navigation: {
         nextEl: ".ind-catalog__media .swiper-controls .swiper-button-next",
         prevEl: ".ind-catalog__media .swiper-controls .swiper-button-prev",
@@ -617,8 +617,12 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetweenSlides: 20
         },
-        0: {
+        800: {
             slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
             spaceBetweenSlides: 0
         }
     }
@@ -744,6 +748,11 @@ $('#indexHeaderQuizItem_6_2').on('click', function() {
     $('#indexHeaderQuizBlock_7').removeClass('display-n')
 });
 
+$('#quizCheckBox_1').on('click', function() {
+    $('#indexHeaderQuizItem_6_1').toggleClass('blocking')
+    $('#indexHeaderQuizItem_6_2').toggleClass('blocking')
+})
+
 //! ===========================================================================
 
 
@@ -775,6 +784,17 @@ $('#indexHeaderQuizItem_7_2').on('click', function() {
     $('#indexHeaderQuizBlock_1').removeClass('display-n')
 });
 
+$('#quizCheckBox_2').on('click', function() {
+    $('.ind-headers__block-quiz-item-selector').toggleClass('blocking')
+    $('#indexHeaderQuizItem_7_2').toggleClass('blocking')
+    $('#indexHeaderQuizItem_7_1').toggleClass('blocking')
+});
+
+$('.ind-headers__block-quiz-list-title a').on('click', function() {
+    $('#indexHeaderQuizBlock_7').addClass('display-n')
+    $('#indexHeaderQuizBlock_6').removeClass('display-n')
+})
+
 //! ===========================================================================
 
 //! ----------------------------------------------------------------------------
@@ -783,12 +803,12 @@ $('#indexHeaderQuizItem_7_2').on('click', function() {
 
 //! Custom ScrollBar
 
-$(function() {  
-    $("body").niceScroll({ 
-        cursorcolor: "#fde3a7",
-        cursorborder: ".5px solid box-shadow: 2px 4px 13px 2px rgba(34, 60, 80, 0.2);", 
-        zindex: 100000,
-    });
-});
+// $(function() {  
+//     $("body").niceScroll({ 
+//         cursorcolor: "#fde3a7",
+//         cursorborder: ".5px solid box-shadow: 2px 4px 13px 2px rgba(34, 60, 80, 0.2);", 
+//         zindex: 100000,
+//     });
+// });
 
 //! -----------------------------------------------------------------------------

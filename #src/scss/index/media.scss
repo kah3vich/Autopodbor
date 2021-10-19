@@ -216,4 +216,511 @@
     .ind-slider__bg {
         bottom: 0;
     }
+    .ind-slider__wrapper-text {
+        display: none;
+    }
+    .ind-slider__wrapper-block-img:nth-child(2) {
+        display: none;
+    }
+    .ind-slider__wrapper-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .ind-slider__media {
+        display: block;
+        & .ind-slider__wrapper-text {
+            display: block;
+            top: 0;
+            left: 230px;
+        }
+    }
+    .ind-slider__bg {
+        display: none;
+    }
+    .ind-slider__wrapper {
+        margin: 195px auto 0 auto;
+    }
+    .ind-slider__wrapper .swiper-button-prev {
+        top: 974px;
+    }
+    .ind-slider__wrapper .swiper-button-next {
+        top: 974px;
+    }
+    .ind-slider__wrapper .swiper-button-prev {
+        left: 43%;
+    }
+    .ind-slider__wrapper-block-info {
+        width: 308px;
+        height: 613px;
+        background: #1c1c1c;
+    }
+    .ind-add__info .containers {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .ind-add__info-add {
+        margin: 50px 105px 0 0;
+    }
+    .ind-add__info::after {
+        height: 840px;
+    }
+    .ind-add__catalog-text {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .ind-add__catalog-text-item {
+        margin: 20px 0 0 0;
+    }
+    .ind-description__process-item:nth-child(1) p {
+        margin: 0;
+    }
+    .ind-description__process-item:nth-child(2) p {
+        margin: 0;
+    }
+    .ind-description__process-item:nth-child(3) p {
+        margin: 0;
+    }
+    .ind-description__process-item:nth-child(4) p {
+        margin: 0;
+    }
+    .ind-description__process-item p {
+        position: absolute;
+        bottom: -36px;
+        text-align: center;
+        width: 137px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        color: #fde3a7;
+    }
+}
+@media (max-width: 1200px) {
+    .ind-catalog__media .swiper-button-next {
+        right: 43%;
+    }
+    .ind-catalog__media .swiper-button-prev {
+        left: 43%;
+    }
+}
+@media (max-width: 1100px) {
+    .ind-headers__block {
+        padding: 0 165px;
+    }
+    .containers {
+        padding: 0 165px;
+    }
+    .ind-footer__block .containers {
+        padding: 0 165px 82px 165px;
+    }
+    .ind-slider__media .ind-slider__wrapper-text {
+        display: block;
+        top: 0;
+        left: 165px;
+    }
+}
+@media (max-width: 1050px) {
+    .ind-header__block-list-item:nth-child(1) {
+        left: 30px;
+    }
+    .ind-header__block-instagram {
+        left: 30px;
+    }
+    .ind-header__block-arrow {
+        left: 30px;
+    }
+    .ind-header__block-test {
+        right: 30px;
+    }
+    .ind-header__block-list-item:nth-child(2) {
+        right: 30px;
+    }
+    .ind-headers__block {
+        padding: 0 90px;
+    }
+    .containers {
+        padding: 0 90px;
+    }
+    .ind-footer__block .containers {
+        padding: 0 90px 82px 90px;
+    }
+    .ind-slider__media .ind-slider__wrapper-text {
+        display: block;
+        top: 0;
+        left: 90px;
+    }
+}
+@media (max-width: 900px) {
+    .ind-slider__wrapper .swiper-button-prev {
+        left: 39%;
+    }
+    .ind-slider__wrapper .swiper-button-next {
+        right: 37%;
+    }
+    .ind-catalog__media .swiper-button-next {
+        right: 40%;
+    }
+    .ind-catalog__media .swiper-button-prev {
+        left: 40%;
+    }
+}
+@media (max-width: 800px) {
+    .ind-header__block-test {
+        display: none;
+    }
+    .ind-header__block-instagram {
+        display: none;
+    }
+    .ind-header__block-arrow {
+        display: none;
+    }
+    .ind-header__block-list-item:nth-child(1) {
+        left: 90px;
+        position: absolute;
+        width: 135px;
+    }
+    .ind-header__block-list-item:nth-child(2) {
+        right: 90px;
+        position: absolute;
+    }
+    .ind-header__block-list-item-description {
+        width: 100%;
+        font-size: 14px;
+    }
+    .ind-headers__block-quiz-list {
+        &:nth-child(1) {
+            .ind-headers__block-quiz-list-wrapper {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                width: 350px;
+                gap: 20px 0;
+            }
+        }
+        &:nth-child(4) {
+            .ind-headers__block-quiz-list-wrapper {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                width: 320px;
+            }
+        }
+        &:nth-child(5) {
+            .ind-headers__block-quiz-list-wrapper {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                width: 360px;
+                gap: 20px 0;
+            }
+        }
+        &:nth-child(7) {
+            .ind-headers__block-quiz-list-wrapper {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                width: 350px;
+                grid-template-rows: repeat(2, 1fr);
+                gap: 20px 0;
+                grid-template-areas: "quizElement_6_1 quizElement_6_1" "quizElement_6_2 quizElement_6_2";
+            }
+            .ind-headers__block-quiz-item-selector {
+                grid-area: quizElement_6_1;
+            }   
+            .ind-headers__block-quiz-input {
+                grid-area: quizElement_6_1;
+                margin: 0 0 0 109px;
+            }
+            .ind-headers__block-quiz-button {
+                grid-area: quizElement_6_2;
+                margin: 0;
+            }
+        }
+    }
+    .ind-headers__block-quiz-list:nth-child(7) .ind-headers__block-quiz-list-title {
+        margin: 0;
+        width: 400px;
+        position: relative;
+    }
+    .ind-add__catalog-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ind-add__catalog-btns {
+        justify-content: center;
+    }
+    #constPhotos svg {
+        width: 320px;
+        height: 355px;
+    }
+}
+@media (max-width: 700px) {
+    .ind-description__process-wrapper::after {
+        content: "Статистика вторичного рынка авто из открытых источников";
+        position: absolute;
+        top: -163px;
+        left: 0;
+        width: 410px;
+        height: 82px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 110%;
+        color: #fde3a7;
+    }
+}
+@media (max-width: 650px) {
+    .ind-slider__wrapper .swiper-button-prev {
+        left: 32%;
+    }
+    .ind-slider__wrapper .swiper-button-next {
+        right: 30%;
+    }
+    .ind-footer__add-rights {
+        width: 340px;
+        font-size: 13px;
+    }
+    .ind-footer__add {
+        width: 100%;
+        height: 78px;
+        display: flex;
+        padding: 0 0 20px 0;
+        justify-content: center;
+    }
+    .ind-footer__block-title {
+        font-size: 30px;
+        margin: 0 0 90px 0;
+        position: relative;
+        &::after {
+            content: "Задайте их нам заполнив форму или позвоните  по телефону +7 (495) 790-90-71";
+            width: 278px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 19px;
+            line-height: 137%;
+            color: #FDE3A7;
+            text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+            position: absolute;
+            bottom: -105px;
+            left: 0;
+        }
+    }
+    .ind-footer__block-up {
+        display: none;
+    }
+    .ind-form__block-input-text {
+        width: 100%;
+        margin: 36px 0 0 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 130%;
+        color: #fde3a7;
+    }
+    .ind-form__block-input {
+        width: 100%;
+        padding: 40px 0 0 0;
+    }
+    .ind-form__block-text-photo {
+        display: none;
+    }
+    .ind-catalog__media .swiper-button-next {
+        right: 30%;
+    }
+    .ind-catalog__media .swiper-button-prev {
+        left: 32%;
+    }
+    .ind-constructor__content-title {
+        margin: 33px 0 0 0;
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 100%;
+        color: #fde3a7;
+    }
+    .ind-description__process-wrapper::after {
+        content: "Статистика вторичного рынка авто из открытых источников";
+        position: absolute;
+        top: -163px;
+        left: 0;
+        width: 360px;
+        height: 82px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 110%;
+        color: #fde3a7;
+    }
+    .ind-headers__block-quiz-list-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 120%;
+        color: #fde3a7;
+        text-shadow: 0 4px 4px rgb(0 0 0 / 25%), 0 4px 4px rgb(0 0 0 / 25%);
+    }
+    .ind-headers__block-title {
+        font-family: TT Norms;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+    }
+    .ind-headers__block-quiz-list {
+        &:nth-child(3) {
+            .ind-headers__block-quiz-list-wrapper {
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+            .ind-headers__block-quiz-inputs {
+                margin: 12px 0 0 0;
+            }
+        }
+    }
+    .ind-headers__block-quiz-list:nth-child(4) .ind-headers__block-quiz-list-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ind-description__text-photo-item {
+        width: 261.93px;
+        height: 315.11px;
+        & img {
+            width: 261.93px;
+            height: 315.11px;
+        }
+    }
+    .ind-description__text-photo-add {
+        width: 190.38px;
+        height: 190.38px;
+        & img {
+            width: 190.38px;
+            height: 190.38px;
+        }
+    }
+    .ind-slider__wrapper-text-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 37px;
+        width: 340px;
+        line-height: 110%;
+        color: #fde3a7;
+    }
+    .ind-slider__wrapper-text-item {
+        width: 340px;
+    }
+    .ind-slider__wrapper {
+        margin: 340px auto 0 auto;
+    }
+    .ind-slider {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        height: 1228px;
+        padding: 118px 0 0 0;
+    }
+    .ind-slider__wrapper .swiper-button-prev {
+        top: 1130px;
+        left: 27%;
+    }
+    .ind-slider__wrapper .swiper-button-next {
+        top: 1130px;
+        right: 25%;
+    }
+}
+@media (max-width: 550px) {
+    .ind-form__block-input-wrapper .ind-form__block-input-text {
+        position: absolute;
+        top: -35px;
+        left: 0;
+        line-height: 40px;
+        font-size: 16px;
+        display: block;
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        pointer-events: none;
+    }
+    .ind-header__block-list-item:nth-child(1) {
+        left: 25px;
+    }
+    .ind-header__block-instagram {
+        left: 25px;
+    }
+    .ind-header__block-arrow {
+        left: 25px;
+    }
+    .ind-header__block-test {
+        right: 25px;
+    }
+    .ind-header__block-list-item:nth-child(2) {
+        right: 25px;
+    }
+    .ind-headers__block {
+        padding: 0 28px;
+    }
+    .containers {
+        padding: 0 28px;
+    }
+    .ind-footer__block .containers {
+        padding: 0 28px 82px 28px;
+    }
+    .ind-slider__media .ind-slider__wrapper-text {
+        display: block;
+        top: 0;
+        left: 25px;
+    }
+    .ind-headers__block-quiz-list:nth-child(6) .ind-headers__block-quiz-list-title {
+        margin: 0;
+        width: 202px;
+    }
+    .ind-headers__block-quiz-list-text {
+        width: 448px;
+    }
+    .ind-constructor__content-title {
+        margin: 33px 0 0 0;
+        width: 95%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 100%;
+        color: #fde3a7;
+    }
+    .ind-headers__block-quiz-list-text {
+        width: 100%;
+    }
+    
+}
+@media (max-width: 500px) {
+    .ind-headers__block-quiz-list:nth-child(7) .ind-headers__block-quiz-list-title a {
+        top: 34px;
+        left: 0;
+    }
+    .ind-headers__block-quiz-list:nth-child(7) .ind-headers__block-quiz-list-wrapper {
+        margin: 61px 0 0 0;
+    }
+}
+@media (max-width: 450px) {
+    .ind-footer__add-create a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -.204545px;
+        color: #fde3a7;
+        opacity: .6;
+    }
+    .ind-footer__add-instagram p {
+        font-size: 13px;
+        margin: 0 0 0 10px;
+    }
+    .ind-form__block-text-title {
+        margin: 33px 0 0 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 100%;
+        color: #fde3a7;
+    }
+    .ind-constructor__content-block {
+        gap: 27px 15px;
+    }
 }
