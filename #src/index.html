@@ -30,7 +30,7 @@
         </div>
         <div class="ind-headers__block-quiz">
             <form class="ind-headers__block-quiz-form">
-                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_1">
+                <div class="ind-headers__block-quiz-list" id="indexHeaderQuizBlock_1">
                     <div class="ind-headers__block-quiz-list-text">Ответьте на 5 вопросов и получите чек лист “Как не дать обмануть себя при покупке авто” </div>
                     <div class="ind-headers__block-quiz-list-add">Вопрос 1 из 5</div>
                     <div class="ind-headers__block-quiz-list-title">В каком ценовом сегменте ищете авто?</div>
@@ -153,39 +153,99 @@
                         </label>
                     </div>
                 </div>
-                <div class="ind-headers__block-quiz-list" id="indexHeaderQuizBlock_1">
+                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_5">
                     <div class="ind-headers__block-quiz-list-text">Ответьте на 5 вопросов и получите чек лист “Как не дать обмануть себя при покупке авто” </div>
                     <div class="ind-headers__block-quiz-list-add">Вопрос 5 из 5</div>
                     <div class="ind-headers__block-quiz-list-title">Как срочно планируете покупку авто?</div>
                     <div class="ind-headers__block-quiz-list-wrapper">
-                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_1" for="indexHeaderQuizItemInput_1_1">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_5_1" for="indexHeaderQuizItemInput_5_1">
                             <div class="ind-headers__block-quiz-item-block">
                                 <p>В ближайшую неделю</p>
                             </div>
                             <div class="ind-headers__block-quiz-item-line"></div>
-                            <input type="radio" id="indexHeaderQuizItemInput_1_1" name="indexHeaderQuizBlock_1">
+                            <input type="radio" id="indexHeaderQuizItemInput_5_1" name="indexHeaderQuizBlock_5">
                         </label>
-                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_2" for="indexHeaderQuizItemInput_1_2">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_5_2" for="indexHeaderQuizItemInput_5_2">
                             <div class="ind-headers__block-quiz-item-block">
                                 <p>В ближайший месяц</p>
                             </div>
                             <div class="ind-headers__block-quiz-item-line"></div>
-                            <input type="radio" id="indexHeaderQuizItemInput_1_2" name="indexHeaderQuizBlock_1">
+                            <input type="radio" id="indexHeaderQuizItemInput_5_2" name="indexHeaderQuizBlock_5">
                         </label>
-                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_3" for="indexHeaderQuizItemInput_1_3">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_5_3" for="indexHeaderQuizItemInput_5_3">
                             <div class="ind-headers__block-quiz-item-block">
                                 <p>В ближайшие 3 месяца</p>
                             </div>
                             <div class="ind-headers__block-quiz-item-line"></div>
-                            <input type="radio" id="indexHeaderQuizItemInput_1_3" name="indexHeaderQuizBlock_1">
+                            <input type="radio" id="indexHeaderQuizItemInput_5_3" name="indexHeaderQuizBlock_5">
                         </label>
-                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_1_4" for="indexHeaderQuizItemInput_1_4">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_5_4" for="indexHeaderQuizItemInput_5_4">
                             <div class="ind-headers__block-quiz-item-block">
                                 <p>Еще не определился</p>
                             </div>
                             <div class="ind-headers__block-quiz-item-line"></div>
-                            <input type="radio" id="indexHeaderQuizItemInput_1_4" name="indexHeaderQuizBlock_1">
+                            <input type="radio" id="indexHeaderQuizItemInput_5_4" name="indexHeaderQuizBlock_5">
                         </label>
+                    </div>
+                </div>
+                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_6">
+                    <div class="ind-headers__block-quiz-list-title">Куда прислать каталог?</div>
+                    <div class="ind-headers__block-quiz-list-wrapper">
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_6_1" for="indexHeaderQuizItemInput_6_1">
+                            <div class="ind-headers__block-quiz-item-block">
+                                @@include('iconsprite/index/viber.svg')
+                                <p>Viber</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_6_1" name="indexHeaderQuizBlock_6">
+                        </label>
+                        <label class="ind-headers__block-quiz-item" id="indexHeaderQuizItem_6_2" for="indexHeaderQuizItemInput_6_2">
+                            <div class="ind-headers__block-quiz-item-block">
+                                @@include('iconsprite/index/whatsapp.svg')
+                                <p>WhatsApp</p>
+                            </div>
+                            <div class="ind-headers__block-quiz-item-line"></div>
+                            <input type="radio" id="indexHeaderQuizItemInput_6_2" name="indexHeaderQuizBlock_6">
+                        </label>
+                    </div>
+                    <div class="ind-headers__block-quiz-checkbox">
+                        <input class="ind-headers__block-quiz-checkbox__input" type="checkbox" id="quizCheckBox_1">
+                        <label class="ind-headers__block-quiz-checkbox__label" for="quizCheckBox_1">С <a href="#">политикой конфиденциальности</a> ознакомлен</label>
+                    </div>
+                </div>
+                <div class="ind-headers__block-quiz-list display-n" id="indexHeaderQuizBlock_7">
+                    <div class="ind-headers__block-quiz-list-title">Введите номер Whats App
+                        <a href="#">Выбрать другой мессенджер</a>
+                    </div>
+                    <div class="ind-headers__block-quiz-list-wrapper">
+                        <div class="ind-headers__block-quiz-item-selector">
+                            <div class="ind-headers__block-quiz-item-selector-item">
+                                <div class="ind-headers__block-quiz-item-selector-item-flag">
+                                    <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect y="6.6665" width="13.5897" height="3.33333" fill="#B54634"/>
+                                        <rect y="3.3335" width="13.5897" height="3.33333" fill="#1B3A99"/>
+                                        <rect width="13.5897" height="3.33333" fill="white"/>
+                                    </svg>
+                                </div>
+                                <p>+ 7</p>
+                            </div>
+                            <select class="form-select ind-headers__block-quiz-item-selector-wrapper display-n" multiple aria-label="multiple select example">
+                                <option value="+ 7" id="quizSelectOption_1">+ 7</option>
+                                <option value="+ 4" id="quizSelectOption_2">+ 4</option>
+                                <option value="+ 1" id="quizSelectOption_3">+ 1</option>
+                                <option value="+ 8" id="quizSelectOption_4">+ 8</option>
+                            </select>
+                        </div>
+                        <label class="ind-headers__block-quiz-input" id="indexHeaderQuizItem_7_1" for="indexHeaderQuizItemInput_7_1">
+                            <input type="text" id="indexHeaderQuizItemInput_7_1" name="indexHeaderQuizBlock_1" placeholder="Введите номер*">
+                        </label>
+                        <button class="ind-headers__block-quiz-button" id="indexHeaderQuizItem_7_2">
+                            <p>Готово</p>
+                        </button>
+                    </div>
+                    <div class="ind-headers__block-quiz-checkbox">
+                        <input class="ind-headers__block-quiz-checkbox__input" type="checkbox" id="quizCheckBox_2">
+                        <label class="ind-headers__block-quiz-checkbox__label" for="quizCheckBox_2">С <a href="#">политикой конфиденциальности</a> ознакомлен</label>
                     </div>
                 </div>
             </form>

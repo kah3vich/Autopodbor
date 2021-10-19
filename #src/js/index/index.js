@@ -603,46 +603,6 @@ var indSliderBlock = new Swiper(".indSliderBlock", {
 });
 
 
-// $('#indexHeaderQuizItem_1_1').on('click', function() {
-//     $('#indexHeaderQuizBlock_1').addClass('display-n')
-//     $('#indexHeaderQuizBlock_2').removeClass('display-n')
-//     $('#indexHeaderQuizTitle_1').addClass('display-n')
-//     $('#indexHeaderQuizTitle_2').removeClass('display-n')
-// });
-// $('#indexHeaderQuizItem_1_2').on('click', function() {
-//     $('#indexHeaderQuizBlock_1').addClass('display-n')
-//     $('#indexHeaderQuizBlock_2').removeClass('display-n')
-//     $('#indexHeaderQuizTitle_1').addClass('display-n')
-//     $('#indexHeaderQuizTitle_2').removeClass('display-n')
-// });
-// $('#indexHeaderQuizItem_1_3').on('click', function() {
-//     $('#indexHeaderQuizBlock_1').addClass('display-n')
-//     $('#indexHeaderQuizBlock_2').removeClass('display-n')
-//     $('#indexHeaderQuizTitle_1').addClass('display-n')
-//     $('#indexHeaderQuizTitle_2').removeClass('display-n')
-// });
-
-
-// $('#indexHeaderQuizItem_2_1').on('click', function() {
-//     $('#indexHeaderQuizBlock_2').addClass('display-n')
-//     $('#indexHeaderQuizBlock_3').removeClass('display-n')
-//     $('#indexHeaderQuizTitle_2').addClass('display-n')
-//     $('#indexHeaderQuizTitle_3').removeClass('display-n')
-// });
-// $('#indexHeaderQuizItem_2_2').on('click', function() {
-//     $('#indexHeaderQuizBlock_2').addClass('display-n')
-//     $('#indexHeaderQuizBlock_3').removeClass('display-n')
-//     $('#indexHeaderQuizTitle_2').addClass('display-n')
-//     $('#indexHeaderQuizTitle_3').removeClass('display-n')
-// });
-// $('#indexHeaderQuizItem_2_3').on('click', function() {
-//     $('#indexHeaderQuizBlock_2').addClass('display-n')
-//     $('#indexHeaderQuizBlock_3').removeClass('display-n')
-//     $('#indexHeaderQuizTitle_2').addClass('display-n')
-//     $('#indexHeaderQuizTitle_3').removeClass('display-n')
-// });
-
-
 var swiper = new Swiper(".mySwiper", {
     navigation: {
         nextEl: ".ind-catalog__media .swiper-controls .swiper-button-next",
@@ -663,3 +623,174 @@ var swiper = new Swiper(".mySwiper", {
         }
     }
 });
+
+
+
+//! Quiz 
+
+//! 1 Block
+
+$('#indexHeaderQuizItem_1_1').on('click', function() {
+    $('#indexHeaderQuizBlock_1').addClass('display-n')
+    $('#indexHeaderQuizBlock_2').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_1_2').on('click', function() {
+    $('#indexHeaderQuizBlock_1').addClass('display-n')
+    $('#indexHeaderQuizBlock_2').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_1_3').on('click', function() {
+    $('#indexHeaderQuizBlock_1').addClass('display-n')
+    $('#indexHeaderQuizBlock_2').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_1_4').on('click', function() {
+    $('#indexHeaderQuizBlock_1').addClass('display-n')
+    $('#indexHeaderQuizBlock_2').removeClass('display-n')
+});
+
+//! ===========================================================================
+
+
+//! 2 Block
+
+$('#indexHeaderQuizItem_2_1').on('click', function() {
+    $('#indexHeaderQuizBlock_2').addClass('display-n')
+    $('#indexHeaderQuizBlock_3').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_2_2').on('click', function() {
+    $('#indexHeaderQuizBlock_2').addClass('display-n')
+    $('#indexHeaderQuizBlock_3').removeClass('display-n')
+});
+
+
+//! ===========================================================================
+
+
+//! 3 Block
+
+
+$('#indexHeaderQuizItem_3_1 input').on('change', function() {
+    $('#indexHeaderQuizBlock_3').addClass('display-n')
+    $('#indexHeaderQuizBlock_4').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_3_2').on('click', function() {
+    $('#indexHeaderQuizBlock_3').addClass('display-n')
+    $('#indexHeaderQuizBlock_4').removeClass('display-n')
+});
+
+
+//! ===========================================================================
+
+
+//! 4 Block
+
+$('#indexHeaderQuizItem_4_1').on('click', function() {
+    $('#indexHeaderQuizBlock_4').addClass('display-n')
+    $('#indexHeaderQuizBlock_5').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_4_2').on('click', function() {
+    $('#indexHeaderQuizBlock_4').addClass('display-n')
+    $('#indexHeaderQuizBlock_5').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_4_3').on('click', function() {
+    $('#indexHeaderQuizBlock_4').addClass('display-n')
+    $('#indexHeaderQuizBlock_5').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_4_4').on('click', function() {
+    $('#indexHeaderQuizBlock_4').addClass('display-n')
+    $('#indexHeaderQuizBlock_5').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_4_5').on('click', function() {
+    $('#indexHeaderQuizBlock_4').addClass('display-n')
+    $('#indexHeaderQuizBlock_5').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_4_6').on('click', function() {
+    $('#indexHeaderQuizBlock_4').addClass('display-n')
+    $('#indexHeaderQuizBlock_5').removeClass('display-n')
+});
+
+//! ===========================================================================
+
+
+//! 5 Block
+
+$('#indexHeaderQuizItem_5_1').on('click', function() {
+    $('#indexHeaderQuizBlock_5').addClass('display-n')
+    $('#indexHeaderQuizBlock_6').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_5_2').on('click', function() {
+    $('#indexHeaderQuizBlock_5').addClass('display-n')
+    $('#indexHeaderQuizBlock_6').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_5_3').on('click', function() {
+    $('#indexHeaderQuizBlock_5').addClass('display-n')
+    $('#indexHeaderQuizBlock_6').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_5_4').on('click', function() {
+    $('#indexHeaderQuizBlock_5').addClass('display-n')
+    $('#indexHeaderQuizBlock_6').removeClass('display-n')
+});
+
+//! ===========================================================================
+
+
+//! 6 Block
+
+$('#indexHeaderQuizItem_6_1').on('click', function() {
+    $('#indexHeaderQuizBlock_6').addClass('display-n')
+    $('#indexHeaderQuizBlock_7').removeClass('display-n')
+});
+$('#indexHeaderQuizItem_6_2').on('click', function() {
+    $('#indexHeaderQuizBlock_6').addClass('display-n')
+    $('#indexHeaderQuizBlock_7').removeClass('display-n')
+});
+
+//! ===========================================================================
+
+
+//! 7 block 
+
+$('.ind-headers__block-quiz-item-selector').on('click', function() {
+    $(this).toggleClass('ind-headers__block-quiz-item-selector-active')
+    $('.ind-headers__block-quiz-item-selector-wrapper').toggleClass('display-n')
+});
+$('#quizSelectOption_1').on('click', function() {
+    let quizSelectOption = $(this).val()
+    $('.ind-headers__block-quiz-item-selector-item p').html(quizSelectOption)
+});
+$('#quizSelectOption_2').on('click', function() {
+    let quizSelectOption = $(this).val()
+    $('.ind-headers__block-quiz-item-selector-item p').html(quizSelectOption)
+});
+$('#quizSelectOption_3').on('click', function() {
+    let quizSelectOption = $(this).val()
+    $('.ind-headers__block-quiz-item-selector-item p').html(quizSelectOption)
+});
+$('#quizSelectOption_4').on('click', function() {
+    let quizSelectOption = $(this).val()
+    $('.ind-headers__block-quiz-item-selector-item p').html(quizSelectOption)
+});
+
+$('#indexHeaderQuizItem_7_2').on('click', function() {
+    $('#indexHeaderQuizBlock_7').addClass('display-n')
+    $('#indexHeaderQuizBlock_1').removeClass('display-n')
+});
+
+//! ===========================================================================
+
+//! ----------------------------------------------------------------------------
+
+
+
+//! Custom ScrollBar
+
+$(function() {  
+    $("body").niceScroll({ 
+        scrollspeed: 17,
+        mousescrollstep: 17, 
+        cursorcolor: "#fde3a7",
+        cursorborder: ".5px solid box-shadow: 2px 4px 13px 2px rgba(34, 60, 80, 0.2);", 
+        zindex: 100000,
+    });
+});
+
+//! -----------------------------------------------------------------------------
