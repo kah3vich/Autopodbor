@@ -4190,6 +4190,17 @@ input[type=range i] {
   .ind-headers__block-quiz-list-text {
     width: 100%;
   }
+
+  .ind-constructor__content-add {
+    margin: 20px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #9c4a38;
+  }
 }
 
 @media (max-width: 500px) {
@@ -4230,5 +4241,15 @@ input[type=range i] {
 
   .ind-constructor__content-block {
     gap: 27px 15px;
+  }
+
+  .ind-add__catalog {
+    margin: 105px 0 0 0;
+    padding: 0 0 175px 0;
+  }
+
+  .ind-add__catalog {
+    margin: 105px 0 0 0;
+    padding: 0 0 0px 0;
   }
 }
