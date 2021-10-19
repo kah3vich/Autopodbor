@@ -803,12 +803,12 @@ $('.ind-headers__block-quiz-list-title a').on('click', function() {
 
 //! Custom ScrollBar
 
-// $(function() {  
-//     $("body").niceScroll({ 
-//         cursorcolor: "#fde3a7",
-//         cursorborder: ".5px solid box-shadow: 2px 4px 13px 2px rgba(34, 60, 80, 0.2);", 
-//         zindex: 100000,
-//     });
-// });
+$(function() {  
+    $("body").niceScroll({ 
+        cursorcolor: "#fde3a7",
+        cursorborder: ".5px solid box-shadow: 2px 4px 13px 2px rgba(34, 60, 80, 0.2);", 
+        zindex: 100000,
+    });
+});
 
 //! -----------------------------------------------------------------------------
