@@ -805,6 +805,9 @@ $('.ind-headers__block-quiz-list-title a').on('click', function() {
 
 $(function() {  
     $("body").niceScroll({ 
+        scrollspeed: 60, 
+        mousescrollstep: 40, 
+        smoothscroll: true,
         cursorcolor: "#fde3a7",
         cursorborder: ".5px solid box-shadow: 2px 4px 13px 2px rgba(34, 60, 80, 0.2);", 
         zindex: 100000,
