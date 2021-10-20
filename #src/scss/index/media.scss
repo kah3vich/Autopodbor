@@ -647,6 +647,9 @@
         transition: all .5s ease-in-out;
         pointer-events: none;
     }
+    .ind-headers__bg {
+        background-position: 32%;
+    }
     .ind-header__block-list-item:nth-child(1) {
         left: 25px;
     }
