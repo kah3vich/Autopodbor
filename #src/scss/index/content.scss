@@ -160,7 +160,7 @@
             top: 30%;
             left: 25px;
             &::after {
-                content: "подобор авто";
+                content: "подбор авто";
                 position: absolute;
                 top: -30px;
                 left: 0;
@@ -174,7 +174,7 @@
                 color: #9C4A38;
             }
             &::before {
-                content: "Подберем лучший авто с прбегом в вашем ценовом сегменте, с горантией технической исправности";
+                content: "Подберем лучший авто с пробегом в вашем ценовом сегменте, с гарантией технической исправности";
                 position: absolute;
                 bottom: -120px;
                 left: 0;
@@ -561,7 +561,7 @@
             }
             &-text {
                 margin: 39px 0 0 0;
-                width: 100%;
+                width:365px;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 17px;

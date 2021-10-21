@@ -359,7 +359,7 @@
 }
 
 .ind-headers__block-title::after {
-  content: "подобор авто";
+  content: "подбор авто";
   position: absolute;
   top: -30px;
   left: 0;
@@ -374,7 +374,7 @@
 }
 
 .ind-headers__block-title::before {
-  content: "Подберем лучший авто с прбегом в вашем ценовом сегменте, с горантией технической исправности";
+  content: "Подберем лучший авто с пробегом в вашем ценовом сегменте, с гарантией технической исправности";
   position: absolute;
   bottom: -120px;
   left: 0;
@@ -959,7 +959,7 @@
 
 .ind-description__text-block-text {
   margin: 39px 0 0 0;
-  width: 100%;
+  width: 365px;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
