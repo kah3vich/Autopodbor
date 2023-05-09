@@ -37,6 +37,7 @@ yarn start
 </tr></table>
 
 <div align="center" id="team"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/team.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><table align="center"><tr><td align="center" valign="top"><img width="96" height="96" src="https://github.com/kah3vich.png?s=96"><br /><a href="https://github.com/kah3vich">Kah3vich</a><p>Core Developer</p></td>
+<td align="center" valign="top"><img width="96" height="96" src="https://github.com/bpump.png?s=96"><br /><a href="https://github.com/pbump">Bpump</a><p>Support</p></td>
 </tr></table><div align="center" id="license"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/license.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><a href="https://github.com/kah3vich/readme-project-base/blob/main/LICENSE"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/licenseContent.svg" alt="" width="100%" height="29px"><br /></a>
 
 <!-- ! by kah3vich -->
