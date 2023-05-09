@@ -31,6 +31,9 @@ yarn start
 ### 1. <a href="https://kah3vich.github.io/Autopodbor/dist/index.html">Index</a>
 
 <div align="center" id="stack"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/stack.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><table align="center"><tr><td align="center" width="96"><a href="#"><img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/javascript.svg" width="48" height="48" alt="JavaScript" /></a><br /><p>JavaScript</p></td>
+<td align="center" width="96"><a href="#"><img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/html5.svg" width="48" height="48" alt="HTML" /></a><br /><p>HTML</p></td>
+<td align="center" width="96"><a href="#"><img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/scss.svg" width="48" height="48" alt="SCSS" /></a><br /><p>SCSS</p></td>
+<td align="center" width="96"><a href="#"><img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/gulp.svg" width="48" height="48" alt="Gulp" /></a><br /><p>Gulp</p></td>
 </tr></table>
 
 <div align="center" id="team"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/team.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><table align="center"><tr><td align="center" valign="top"><img width="96" height="96" src="https://github.com/kah3vich.png?s=96"><br /><a href="https://github.com/kah3vich">Kah3vich</a><p>Core Developer</p></td>
