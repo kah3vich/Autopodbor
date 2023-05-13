@@ -1,4 +1,4 @@
-<div align="center"><img width="200" height="200" src="https://www.vectorlogo.zone/logos/readmeio/readmeio-icon.svg"><br /><h1>Autopodbor</h1><p>Project for a car dealership</p><br /></div><div align="center"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/tableOfContents.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div>
+<div align="center"><img width="200" height="200" src="https://www.vectorlogo.zone/logos/readmeio/readmeio-icon.svg"><br /><h1>Autopodbor</h1><p>Project for a car dealership.</p><br /></div><div align="center"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/tableOfContents.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div>
 
 ### 1. <a href="#script">Script</a>
 
@@ -28,7 +28,7 @@ yarn start
 
 <br /><a href="https://github.com/kah3vich/Gulp-RS/blob/set/readme.md#script" target="_blank"><b>More scripts.</b></a><br /><div align="center" id="description"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/description.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><div align="center"><p>The car dealership project, which has a large selection of cars and accessories for cars, which are easy to pick up, will pass a small quiz.</p></div><div align="center" id="link"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/link.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div>
 
-### 1. <a href="https://kah3vich.github.io/Autopodbor/dist/index.html">Index</a>
+### 1. <a href="https://kah3vich.github.io/Autopodbor/public/details.html">Index</a>
 
 <div align="center" id="stack"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/stack.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><table align="center"><tr><td align="center" width="96"><a href="#"><img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/javascript.svg" width="48" height="48" alt="JavaScript" /></a><br /><p>JavaScript</p></td>
 <td align="center" width="96"><a href="#"><img src="https://raw.githubusercontent.com/kah3vich/kah3vich/main/assets/icon/html5.svg" width="48" height="48" alt="HTML" /></a><br /><p>HTML</p></td>
@@ -37,7 +37,7 @@ yarn start
 </tr></table>
 
 <div align="center" id="team"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/team.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><table align="center"><tr><td align="center" valign="top"><img width="96" height="96" src="https://github.com/kah3vich.png?s=96"><br /><a href="https://github.com/kah3vich">Kah3vich</a><p>Core Developer</p></td>
-<td align="center" valign="top"><img width="96" height="96" src="https://github.com/bpump.png?s=96"><br /><a href="https://github.com/pbump">Bpump</a><p>Support </p></td>
+<td align="center" valign="top"><img width="96" height="96" src="https://github.com/bpump.png?s=96"><br /><a href="https://github.com/pbump">Bpump</a><p>Support</p></td>
 </tr></table><div align="center" id="license"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/license.svg" alt="" width="100%" height="29px"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/gif/line.gif" alt="" width="100%" height="20px"><br /></div><a href="https://github.com/kah3vich/readme-project-base/blob/main/LICENSE"><br /><img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/licenseContent.svg" alt="" width="100%" height="29px"><br /></a>
 
 <!-- ! by kah3vich -->
